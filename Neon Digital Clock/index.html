@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Digital Clock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main clock container: styles and layout come from styles.css -->
+    <div class="clock-body">
+      <!-- Time element: updated dynamically by app.js -->
+      <h1 id="time">00:00:00</h1>
+      <!-- Date element: populated by app.js -->
+      <p id="date"></p>
+    </div>
+
+    <!-- Footer: displays copyright and app name -->
+    <footer>
+      <p id="footer-text">
+        &copy; <span id="year"></span> Neon Digital Clock. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- Main JavaScript file. -->
+    <script src="/app.js"></script>
+  </body>
+</html>
